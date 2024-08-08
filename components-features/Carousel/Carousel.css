@@ -1,0 +1,72 @@
+/* .carousel {
+  height: 300px;
+  width: 500px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  height: 100%; 
+  border: solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.image-container > img {
+  width: 500px;
+  height: 300px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 10px;
+} */
+
+.carousel {
+  margin: 50px 0px;
+  height: 300px;
+  width: 500px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.image-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.btn button {
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}

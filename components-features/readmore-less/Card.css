@@ -1,0 +1,22 @@
+.card {
+  border: solid 1px;
+  padding: 10px;
+  height: 250px;
+  width: 280px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Ensure content starts at the top */
+}
+
+.read-toggle {
+  color: rgb(20, 81, 141);
+  cursor: pointer;
+}
+
+.paragraph-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
